@@ -18,7 +18,8 @@ Este é um jogo de golf para exercicitar os conhecimentos em DOM
 
 ### Capturas de tela
 
-![Web](jogo-golf-evento-DOM/assets/screenshots/01.png)
+
+![Web](assets/screenshots/01.png)
 
 ## Meu Processo
 
