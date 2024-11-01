@@ -40,5 +40,6 @@ const girar = () => {
   if (posicao == 400) {
     ganhou();
   } else {
+    perdeu()
   }
 };
