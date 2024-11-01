@@ -25,6 +25,7 @@ const ganhou = () => {
 const perdeu = () => {
   setTimeout(() => {
     alert("Você perdeu!");
+    reiniciar();
   }, 500);
 };
 

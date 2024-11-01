@@ -80,3 +80,9 @@ button {
   border: 3px solid var(--gray-400);
   margin-left: auto;
 }
+
+.instrucoes {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
