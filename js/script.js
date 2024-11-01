@@ -8,17 +8,36 @@ const moverBolinha = (event) => {
     bolinhaElemento.style.marginLeft = `${posicao}px`;
 
     if (posicao == 400) {
-      setTimeout(() => {
-        alert("Você venceu!");
-        reiniciar();
-      }, 50);
+      ganhou();
     }
   }
 };
 
 document.addEventListener("keydown", moverBolinha);
 
+const ganhou = () => {
+  setTimeout(() => {
+    alert("Você venceu!");
+    reiniciar();
+  }, 50);
+};
+
+const perdeu = () => {
+  setTimeout(() => {
+    alert("Você perdeu!");
+  }, 500);
+};
+
 const reiniciar = () => {
   posicao = 0;
   bolinhaElemento.style.marginLeft = `${posicao}px`;
+};
+
+const girar = () => {
+  posicao = Math.random() * 400;
+  bolinhaElemento.style.marginLeft = `${posicao}px`;
+  if (posicao == 400) {
+    ganhou();
+  } else {
+  }
 };
